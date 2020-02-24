@@ -18,3 +18,15 @@ won_array = revenue_in_yen * np.array(10.08)
 
 # 정답 출력
 print(won_array)
+
+"""
+과제해설
+numpy array를 사용하면, 모든 데이터에 같은 숫자를 한 번에 곱해줄 수 있습니다.
+먼저 주어진 리스트를 numpy array로 만듭니다.
+
+yen_array = np.array(revenue_in_yen)
+이제 이 numpy array에는 곱셈 연산을 적용할 수 있습니다.
+
+won_array = yen_array * 10.08
+won_array # 정답 출력
+"""

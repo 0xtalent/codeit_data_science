@@ -25,6 +25,20 @@ revenue_in_dollar = [
 ]
 
 # 코드를 작성하세요.
+won_array = revenue_in_yen * np.array(10.08) + revenue_in_dollar * np.array(1138)
 
 # 정답 출력
-won_array
+print(won_array)
+
+"""
+과제해설
+리스트에 있는 모든 값에 곱셈을 동시에 해주기 위해, 
+엔화 데이터 revenue_in_yen와 달러 데이터 revenue_in_dollar 
+모두 numpy array로 만들어 줍시다.
+
+yen_array = np.array(revenue_in_yen)
+dollar_array = np.array(revenue_in_dollar)
+
+won_array = yen_array * 10.08 + dollar_array * 1138
+won_array # 정답 출력
+"""
